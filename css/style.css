@@ -1,0 +1,508 @@
+*
+{
+    box-sizing: border-box;
+}
+body
+{
+    font-weight: 400px;
+    font-family: 'Lato', sans-serif;
+    line-height: 24pt;
+    font-size: 14px;
+}
+
+a
+{
+    display: inline-block;
+    color: #000000;
+    text-decoration: none;
+}
+
+.header
+{
+    border-top: 1px solid #3b84e5;
+}
+
+.container
+{
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header_inner
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 87px;
+}
+
+.menu_list
+{
+    display: flex;
+}
+.menu_list li
+{
+    margin-left: 38px;
+}
+
+
+.menu_list a
+{
+    color: #2f3f54;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.menu_list a:hover
+{
+    color: #2575e7;
+}
+.menu_list a
+{
+    transition-duration: 1s;
+    transition-property: color;
+}
+.top
+{
+    background-color:  #3b84e5;
+    padding-top: 150px;
+    padding-bottom: 180px;
+}
+.top_inner
+{
+    display: flex;
+}
+
+.top-info {
+    max-width: 555px;
+    margin-right: 35px;
+    color: #ffffff;
+}
+.top-info_subtitle {
+    margin-bottom: 17px;
+}
+.top-info_title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 52px;
+    text-transform: uppercase;
+}
+.top-info_descr {
+    font-size: 19px;
+    font-weight: 700px;
+    line-height: 52px;
+    margin-bottom: 35px;
+}
+.top-info_descr span {
+    font-size: 14px;
+    line-height: 24px;
+    display: block;
+}
+.top-info_list {
+    list-style: none;
+    margin-bottom: 50px;
+}
+.top-info_list li {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 3px;
+    position: relative;
+    padding-left: 24px;
+}
+.top-info_list li::before {
+    content: "";
+    background-image: url(../images/list-icon.png);
+    width: 13px;
+    height: 13px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.top-info_btn {
+    display: inline-block;
+    color: #ffffff;
+    text-transform: uppercase;
+    border: 3px solid #ffffff;
+    padding: 13px 44px;
+    border-radius: 30px;
+    margin-bottom: 15px;
+}
+.top-info_btn:hover
+{
+    background-color: #fff;
+    color: #267ae9;
+}
+.transition-btn
+{
+    transition-duration: 0.5s;
+    transition-property: background;
+}
+
+.test-btn
+{
+
+}
+
+.top-info_btn-descr {
+
+}
+.top-images {
+}
+.top-images_box {
+    position: relative;
+}
+.top-images_circle {
+    width: 230px;
+    height: 230px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    color: #212121;
+    font-size: 14px;
+
+    position: absolute;
+    top: -65px;
+    right: -60px;
+}
+.top-images_title {
+    text-align: left;
+    margin-bottom: 16px;
+    width: 140px;
+}
+.top-images_price {
+    font-size: 54px;
+    font-weight: 700px;
+    margin-bottom: 5px;
+}
+.top-images-date {
+    text-align: right;
+    width: 140px;
+}
+
+.price
+{
+    padding: 150px 0 180px;
+    color: #4a6385;
+    line-height: 24pt;
+}
+
+.price_descr
+{
+    padding: 45px 0 125px;
+    font-size: 14px;
+    margin: 40px auto 0;
+    text-align: center;
+    max-width: 600px;
+    justify-content: center;
+}
+.price_descr span
+{
+    color: #42d6c1;
+}
+.price_descr a
+{
+    color: #e74c3c;
+}
+
+
+.title
+{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Roboto' sans-serif;
+    line-height: 50px;
+    color: #2f3f54;
+}
+.title span
+{
+    color: #2575e7;
+}
+.price_items
+{
+    display: flex;
+    justify-content: space-between;
+}
+.price-item
+{
+    overflow: hidden;
+    max-width: 360px;
+    box-shadow: 0px 21px 49px 1px rgba(41, 44, 61, 0.15);
+    position: relative;
+    padding: 0 50px 60px;
+    
+}
+.price-item_number
+{
+    
+    width: 265px;
+    height: 456px;
+    border-radius: 136px;
+    color: #fff;
+    background-color: #267ae9;
+    margin: 0 auto;
+    position: absolute;
+    top: -370px;
+
+    font-family: 'Roboto' sans-serif;
+    font-size: 33px;
+    font-weight: 700px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+.price-item_number span
+{
+    font-size: 16px;
+}
+.price-item_image
+{
+    padding-top: 117px;
+    text-align: center;
+    margin-bottom: 30px;
+    min-height: 243px;
+}
+.price-item_title
+{
+    font-family: 'Roboto' sans-serif;
+    font-size: 31px;
+    font-weight: 700;
+    color: #267ae9;
+    margin-bottom: 31px;
+}
+.price-item_descr
+{
+    margin-bottom: 62px;
+    width: 270px;
+}
+.price-item_list
+{
+    list-style: none;
+    
+    
+    margin-bottom: 76px;
+}
+.price-item_list li
+{
+    font-size: 16px;
+    line-height: 36px;
+    position: relative;
+    padding-left: 36px;
+}
+.price-item_list li::before
+{
+    content: "";
+    background-image: url(../images/price-list-icon.png);
+    width: 15px;
+    height: 11px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.price-item_btn
+{
+    color: #ffffff;
+    font-size: 17px;
+    background-color: #267ae9;
+    font-family: 'Roboto' sans-serif;
+    font-weight: 700;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    text-align: center;
+    padding: 20px 10px;
+    box-sizing: border-box;
+}
+.price-item_btn:hover
+{
+    background-color: #e74c3c;
+}
+
+.footer
+{
+    background-color: #344358;
+    padding: 90px 0 125px;
+    font-size: 13px;
+    line-height: 22px;
+    color: #718db2;
+}
+
+.footer_inner
+{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-col_logo
+{
+    width: 263px;
+}
+.footer_logo
+{
+    margin-bottom: 30px;
+}
+.footer_text
+{
+    padding-bottom: 32px;
+    border-bottom: 1px solid rgba(255,255,255,.05);
+}
+.footer_title
+{
+    color: #d0e4ff;
+    font-size: 16px;
+    font-family: 'Roboto' sans-serif;
+    margin-bottom: 35px;
+}
+.footer_menu
+{
+    width: 165px;
+}
+
+.footer_list
+{
+    list-style: none;
+}
+.footer_list a
+{
+    font-size: 13px;
+    margin-bottom: 8px;
+    color: #718db2;
+}
+.footer_form
+{
+    width: 263px;
+}
+
+.footer_form input,
+.footer_form textarea
+{
+    padding: 12px;
+    border: 1px solid rgba(255,255,255,.05);
+    background-color: transparent;
+    height: 38px;
+    width: 100%;
+    display: block;
+    color: #718db2;
+}
+
+.footer_form input::placeholder,
+.footer_form textarea::placeholder
+{
+    color: #718db2;
+    font-size: 11px;
+    font-weight: 700;
+    font-family: 'Lato', sans-serif;
+}
+.footer_form input:focus,
+.footer_form textarea:focus
+{
+    outline-style: solid;
+    outline-color: #fff;
+}
+
+.footer_form textarea
+{
+    height: 85px;
+    resize: none;
+    margin-bottom: 10px;
+}
+
+.footer_form button
+{
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 11px;
+    background-color: #2575e7;
+    border: none;
+    font-family: 'Roboto' sans-serif;
+    padding: 10px;
+    cursor: pointer;
+}
+.footer_form button:hover
+{
+    background-color: #e74c3c;
+}
+
+.reviews
+{
+    padding: 120px 0;
+    background-color: #fafafa;
+    
+}
+
+.reviews-slider
+{
+    padding-top: 160px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.reviews-slider_item {
+    padding: 30px 20px;
+    width: 520px;
+}
+.reviews-box {
+    display: flex;
+    box-shadow: 0px 21px 49px 1px rgba(41, 44, 61, 0.15);
+    position: relative;
+}
+.reviews-box_image
+{
+    background-color: #267ae9;
+    width: 190px;
+    min-height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.reviews-box_image img
+{
+    border-radius: 50%;
+}
+
+.reviews-box_content
+{
+    background-color: #fff;
+    padding: 0px 40px;
+    width: 330px;
+    min-height: 350px;
+    font-size: 16px;
+    line-height: 26px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.reviews-box_text {
+    margin-bottom: 30px;
+}
+.reviews-box-author {
+}
+.reviews-box-author span
+{
+    color: #2575e7;
+    font-family: 'Roboto' sans-serif;
+    font-weight: 700;
+}
+  
+.partners
+{
+    background-color: #fff;
+    align-items: center;
+    justify-content: center;
+    padding: 90px 0px;
+}
+.partners-item
+{
+}
