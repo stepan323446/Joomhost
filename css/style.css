@@ -4,7 +4,7 @@
 }
 body
 {
-    font-weight: 400px;
+    font-weight: 400;
     font-family: 'Lato', sans-serif;
     line-height: 24pt;
     font-size: 14px;
@@ -92,7 +92,7 @@ a
 }
 .top-info_descr {
     font-size: 19px;
-    font-weight: 700px;
+    font-weight: 700;
     line-height: 52px;
     margin-bottom: 35px;
 }
@@ -181,7 +181,7 @@ a
 }
 .top-images_price {
     font-size: 54px;
-    font-weight: 700px;
+    font-weight: 700;
     margin-bottom: 5px;
 }
 .top-images-date {
@@ -255,7 +255,7 @@ a
 
     font-family: 'Roboto' sans-serif;
     font-size: 33px;
-    font-weight: 700px;
+    font-weight: 700;
     display: flex;
     align-items: flex-end;
     justify-content: center;
